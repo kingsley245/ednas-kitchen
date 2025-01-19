@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+   rel="stylesheet">
+
+
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+
+   <link rel="stylesheet" 
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+   integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+   crossorigin="anonymous" 
+   referrerpolicy="no-referrer"
+/>
+
+  <link rel="icon" href="./images/favicon-32x32.svg">
+
+  <link rel="stylesheet" href="./syling.css">
+  <title>Resturant-Mias-Kitchen</title>
+</head>
+<body> 
+  <nav class="navbar" role="navigation" aria-label="">
+    <div class="navbar-flex container">
+      <div class="container">
+        <div class="main-menu-items">
+          <ul class="main-menu-list" id="toggleBar">
+            <div class="menu-toggle">
+              <i class="fas fa-bars fa-2x">
+                menu
+              </i>
+            </div>
+
+            <li  id="menu-hidden"><a href="index.html">HOME</a>
+            </li>
+            <li id="menu-hidden"><a href="service.html">SERVICE</a>
+            </li>
+            <li id="menu-hidden"><a href="our menu.html">OUR MENU</a>
+            </li>
+            <li id="menu-hidden"><a href="#">ABOUT US</a>
+            </li>
+            <li id="menu-hidden"><a href="contact.html">CONTACT US</a>
+            </li>
+            <!-- <li id="menu-hidden"><a href="CAT.html">CATERING</a>
+            </li> -->
+
+            <li class="social-links" id="menu-hidden">
+              <a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="social-links" id="menu-hidden">
+              <a href="#">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </li>
+            <li class="social-links" id="menu-hidden">
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="social-links" id="menu-hidden">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile navbar menu -->
+     <div id="menu" class="menu">
+      <div id="close-menu"><i class="fas fa-close fa-3x"></i></div>
+
+      <ul class="mobile-menu-list">
+        <li  ><a href="index.html">HOME</a>
+        </li>
+        <li ><a href="#" style="text-transform: uppercase;">  OUR SERVICE</a>
+        </li>
+        <li ><a href="our menu.html">OUR MENU</a>
+        </li>
+        <li ><a href="#">ABOUT US</a>
+        </li>
+        <li ><a href="contact.html">CONTACT US</a>
+        </li>
+        <!-- <li id="menu-hidden"><a href="CAT.html">CATERING</a>
+        </li> -->
+
+        <li class="social-links" id="">
+          <a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-links" >
+          <a href="#">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </li>
+        <li class="social-links" >
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-links">
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+     </div>
+  </nav>
+  <header>
+    <h1>Welcome to ednas kitchen</h1>
+    <p>Your favorite spot for delicious AFRICAN cuisine</p>
+</header>
+
+<div class="container_about">
+    <section class="about-section">
+        <h2>Our Story</h2>
+        <p>Founded in 2019, ednas kitchen has been dedicated to providing exceptional dining experiences.</p>
+        <p>Our team of talented chefs uses only the freshest ingredients to craft meals that are as memorable as they are delicious. Whether you’re dining with family, friends, or colleagues, we strive to make every visit a special one.</p>
+    </section>
+
+    <section class="about-section">
+        <h2>Our Mission</h2>
+        <p>At ednas kitchen, our mission is to bring people together through great food, warm hospitality, and an inviting atmosphere. We believe that a good meal has the power to create lasting memories.</p>
+    </section>
+
+    <section class="about-section">
+        <h2>Meet the Team</h2>
+        <p>Our dedicated team is at the heart of everything we do. From our skilled chefs to our friendly servers, every member of our staff is committed to ensuring your dining experience is nothing short of excellent.</p>
+    </section>
+</div>
+     <!-- Footer -->
+
+     <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__about">
+          <h4 class="footer__title">About Resturant ednas kitchen</h4>
+          <p class="footer__description">
+            Welcome to ednas kitchen
+            At ednas kitchen, we're passionate about serving delicious, 
+            homemade Nigerian cuisine that warms the heart and soul. 
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a href="index.html" class="footer__links-link" style="text-decoration: uppercase;"> Home</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="service.html" class="footer__links-link" style="text-transform: uppercase;"> service</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="our menu.html" class="footer__links-link" style="text-transform: uppercase;"> our menu</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="about.html" class="footer__links-link">ABOUT US</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="contact.html" class="footer__links-link"> CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-facebook fa-3x"></i>
+          </a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-tiktok fa-3x"></i>
+          </a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-instagram fa-3x"></i>
+          </a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-whatsapp fa-3x"></i>
+          </a>
+        </div>
+      </div>
+      <div class="2025">
+        <p>&copy; 2025 Our Restaurant. All Rights Reserved.</p>
+      </div>
+     </footer>
+
+
+
+   </header>
+  <script src="./script.js"></script>
+</body>
+</html>

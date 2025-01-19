@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+   rel="stylesheet">
+
+
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+
+   <link rel="stylesheet" 
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+   integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+   crossorigin="anonymous" 
+   referrerpolicy="no-referrer"
+/>
+
+  <link rel="icon" href="./images/favicon-32x32.svg">
+
+  <link rel="stylesheet" href="./syling.css">
+  <title>Resturant-Mias-Kitchen</title>
+</head>
+<body> 
+  <nav class="navbar" role="navigation" aria-label="">
+    <div class="navbar-flex container">
+      <div class="container">
+        <div class="main-menu-items">
+          <ul class="main-menu-list" id="toggleBar">
+            <div class="menu-toggle">
+              <i class="fas fa-bars fa-2x">
+                menu
+              </i>
+            </div>
+
+            <li  id="menu-hidden"><a href="index.html">HOME</a>
+            </li>
+            <li id="menu-hidden"><a href="service.html">SERVICE</a>
+            </li>
+            <li id="menu-hidden"><a href="our menu.html">OUR MENU</a>
+            </li>
+            <li id="menu-hidden"><a href="about.html">ABOUT US</a>
+            </li>
+            <li id="menu-hidden"><a href="contact.html">CONTACT US</a>
+            </li>
+        
+
+            <li class="social-links" id="menu-hidden">
+              <a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="social-links" id="menu-hidden">
+              <a href="#" target="_parent">
+                <i class="fa-brands fa-tiktok" ></i>
+              </a>
+            </li>
+            <li class="social-links" id="menu-hidden">
+              <a href="https://wa.link/setxdi">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </li>
+            <li class="social-links" id="menu-hidden">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="menu-toggle">
+      <i class="fas fa-bars fa-2x">
+        menu
+      </i>
+    </div> -->
+
+    <!-- mobile navbar menu -->
+     <div id="menu" class="menu">
+      <div id="close-menu"><i class="fas fa-close fa-3x"></i></div>
+
+      <ul class="mobile-menu-list">
+        <li  ><a href="index.html">HOME</a>
+        </li>
+        <li ><a href="service.html" style="text-transform: uppercase;">  OUR SERVICE</a>
+        </li>
+        <li ><a href="our menu.html">OUR MENU</a>
+        </li>
+        <li ><a href="about.html">ABOUT US</a>
+        </li>
+        <li ><a href="contact.html">CONTACT US</a>
+        </li>
+        <!-- <li ><a href="CAT.html">CATERING</a>
+        </li> -->
+
+        <li class="social-links" id="">
+          <a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-links" >
+          <a href="#">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </li>
+        <li class="social-links" >
+          <a href="https://wa.link/setxdi">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </li>
+        <li class="social-links">
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+     </div>
+  </nav>
+
+        <!-- Hero -->
+    <header class="hero" id="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+            <h1 class="hero__title" style="text-align: center; margin-top: 24px; color: #fff;">
+             <span class="left-text">EDNAS</span> Kitchen AFRICAN  <span class="right-text">cuisine</span>
+            </h1>
+            <h3 style="text-align: center; color: #fff;" > <strong>NO 1 EFEEKE-AMA RD. BAYELSA STATE.</strong> </h3>
+           
+            <div class="button__order container" style="text-align: center; justify-content: center; align-items: center;">
+              <div class="button_order">
+                <button class="btn" id="order__btn"> <a href="our menu.html">order online</a></button>
+              </div>
+              <div class="button_order">
+                <button class="btn" id="reward__btn"><a href="our menu.html" >our menu</a></button>
+              </div>
+              <div class="button_order">
+                <button class="btn" id="Catering__btn"><a href="#">catering</a></button>
+              </div>
+            </div>
+      </div>
+    </header> 
+
+
+    <!-- OUR GALLERY -->
+
+    <section class="gallery">
+      <h3 class="gallery__heading">ednas Kitchen gallery</h3>
+      <div class="container_gallery container-lg gallery-flex">
+        <div class="gallery-item">
+          <a href="./images/food 1.jpeg" data-lightbox="image-1" data-title="image-1"></a>
+          <img src="./images/food 1.jpeg" alt="image 1">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 2.jpeg" data-lightbox="image-2" data-title="image-2"></a>
+          <img src="./images/food 2.jpeg" alt="image 2">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 10.jpeg" data-lightbox="image-3" data-title="image-3"></a>
+          <img src="./images/food 10.jpeg" alt="image 10">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 5.jpeg" data-lightbox="image-3" data-title="image-3"></a>
+          <img src="./images/food 5.jpeg" alt="image 5"  >
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food ome.jpeg.jpeg" data-lightbox="image-3" data-title="image-5"></a>
+          <img src="./images/food ome.jpeg" alt="image 3">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 6.jpeg" data-lightbox="image-1" data-title="image-6"></a>
+          <img src="./images/food on.jpeg" alt="image 6">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 7.jpeg" data-lightbox="image-7" data-title="image-7"></a>
+          <img src="./images/food 7.jpeg" alt="image-7" >
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 8.jpeg" data-lightbox="image-8" data-title="image-8"></a>
+          <img src="./images/food 8.jpeg" alt="image 8">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 9.jpeg" data-lightbox="image-9" data-title="image-9"></a>
+          <img src="./images/food 9.jpeg" alt="image 9">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 11.jpeg" data-lightbox="image-11" data-title="image-11"></a>
+          <img src="./images/food put.jpeg" alt="image 11">
+        </div>
+        <!-- <div class="gallery-item">
+          <a href="./images/food 12.jpeg" data-lightbox="image-12" data-title="image-12"></a>
+          <img src="./images/food 12.jpeg" alt="image 12">
+        </div> -->
+        <div class="gallery-item">
+          <a href="./images/food 13.jpeg" data-lightbox="image-13" data-title="image-13"></a>
+          <img src="./images/food 13.jpeg" alt="image 13">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 14.jpeg" data-lightbox="image-14" data-title="image-14"></a>
+          <img src="./images/food 14.jpeg" alt="image 14">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 4.jpeg" data-lightbox="image-4" data-title="image-4"></a>
+          <img src="./images/food 4.jpeg" alt="image 4">
+        </div>
+        <div class="gallery-item">
+          <a href="./images/food 16.jpeg" data-lightbox="image-16" data-title="image-16"></a>
+          <img src="./images/food 16.jpeg" alt="image 16">
+        </div>
+        <!-- <div class="gallery-item">
+          <a href="./images/food 17.jpeg" data-lightbox="image-17" data-title="image-17"></a>
+          <img src="./images/food 17.jpeg" alt="image 17">
+        </div> -->
+        <div class="gallery-item">
+          <a href="./images/food 20.jpeg" data-lightbox="image-20" data-title="image-20"></a>
+          <img src="./images/food 20.jpeg" alt="image 20">
+        </div>
+        <!-- <div class="gallery-item">
+          <a href="./images/food 18.jpeg" data-lightbox="image-18" data-title="image-18"></a>
+          <img src="./images/gallery 18.jpeg" alt="image 18">
+        </div> -->
+        <div class="gallery-item">
+          <a href="./images/food 21 .jpeg" data-lightbox="image-21" data-title="image-21"></a>
+          <img src="./images/foos.jpeg" alt="image 21">
+        </div>
+        <!-- <div class="gallery-item">
+          <a href="./images/food 22.jpeg" data-lightbox="image-22" data-title="image-22"></a>
+          <img src="./images/jello rice.jpeg" alt="image 22">
+        </div>
+      </div> -->
+    </section>
+
+
+    <!-- <div class="navbar__mobile-menu-toggle">
+      <i class="fas fa-bars fa-2x">
+
+      </i>
+    </div> -->
+
+     <!-- Footer -->
+
+     <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__about">
+          <h4 class="footer__title">About Resturant-ednas-Kitchen</h4>
+          <p class="footer__description">
+            Welcome to ednas Kitchen
+            At ednas Kitchen, we're passionate about serving delicious, 
+            homemade Nigerian cuisine that warms the heart and soul. 
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a href="index.html" class="footer__links-link" style="text-transform: uppercase;"> Home</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="service.html" class="footer__links-link" style="text-transform: uppercase;"> service</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="our menu.html" class="footer__links-link" style="text-transform: uppercase;"> our menu</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="about.html" class="footer__links-link">ABOUT US</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="contact.html" class="footer__links-link"> CONTACT US</a>
+            </li>
+            <!-- <li class="footer__links-item">
+              <a href="index.html#testimonials" class="footer__links-link">
+                contact us
+              </a>
+            </li> -->
+
+            <!-- <li class="footer__links-item">
+              <a href="index.html#about us" class="footer__links-link">
+                About us
+              </a>
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-facebook fa-3x"></i>
+          </a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-tiktok fa-3x"></i>
+          </a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-instagram fa-3x"></i>
+          </a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-whatsapp fa-3x"></i>
+          </a>
+        </div>
+      </div>
+      <div class="2025">
+        <p>&copy; 2025 Our Restaurant. All Rights Reserved.</p>
+      </div>
+     </footer>
+
+
+
+   </header>
+  <script src="./script.js"></script>
+</body>
+</html>
